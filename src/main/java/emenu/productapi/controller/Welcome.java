@@ -1,4 +1,4 @@
-package emenu.product_api.controller;
+package emenu.productapi.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

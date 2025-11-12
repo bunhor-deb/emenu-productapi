@@ -1,4 +1,4 @@
-package emenu.product_api;
+package emenu.productapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
