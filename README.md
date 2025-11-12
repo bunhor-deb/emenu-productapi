@@ -15,3 +15,14 @@
     ```bash
         run the sql script to create table and insert data
     ```
+
+### Step 3 (Alternative - Using Docker):
+
+    ```bash
+        # 1. Build the Docker image for the application
+        docker build -t emenu/product-api .
+
+        # 2. Run the application container
+        # This command connects the container to the host's network, allowing it to access the PostgreSQL database running on localhost.
+        docker run --network host -p 8080:8080 emenu/product-api
+    ```
